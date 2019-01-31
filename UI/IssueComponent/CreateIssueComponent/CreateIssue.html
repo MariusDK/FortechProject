@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<meta charset="utf-8"/>
+<html lang="en">
+    <head>
+    </head>
+    <body>
+        <script type='module' src="CreateIssue.js"></script>
+        <div>
+            <div>
+                <a href="http://127.0.0.1:8080//UI/SprintComponent/SprintPage.html">Back</a>
+            </div>
+                Name: <input type="text" name="issueName">
+                </br>
+                Type:<select id="typeList" size="1">
+                        <option value="task">Task</option> 
+                        <option value="feature">Feature</option>
+                        <option value="bug">Bug</option>             
+                    </select>
+                </br>
+                Assigned to: <select id="userListIssue" size="1">            
+                    </select>
+                </br>
+                Description: <input type="text" name="description">
+            </br>
+                <button id="saveIssueBtn">Save</button>
+        </div>
+    </body>
+</html>

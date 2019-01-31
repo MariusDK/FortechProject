@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<meta charset="utf-8"/>
+<html lang="en">
+    <head>
+    </head>
+    <body>
+        <script type='module' src="UpdateIssue.js"></script>
+        <div>
+            <div>
+                <a href="http://127.0.0.1:8080//UI/SprintComponent/SprintPage.html">Back</a>
+            </div>
+            <div>
+                <h2 id="sprintName">Issue se gaseste in sprint:</h2>
+            </div>
+            <h1>Update Issue</h1>
+                Name: <input type="text" name="issueName">
+                </br>
+                Type:<select id="typeList" size="1">
+                        <option value="task">Task</option> 
+                        <option value="feature">Feature</option>
+                        <option value="bug">Bug</option>             
+                    </select>
+                </br>
+                Sprint:<select id="sprintList" size="1"></select>
+                </br>
+                Assigned to: <select id="userListIssue" size="1">            
+                    </select>
+                </br>
+                Description: <input type="text" name="description">
+                </br>
+                Status: <select id="statusList" size="1">            
+                    </select>
+                <button id="updateIssueBtn">Save</button>
+        </div>
+    </body>
+</html>

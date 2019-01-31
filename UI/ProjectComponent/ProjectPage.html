@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<meta charset="utf-8"/>
+<html lang="en">
+    <head>
+        <script type='module' src="ProjectPage.js"></script>
+    </head>
+    <body>
+        <div>
+            <a href="http://127.0.0.1:8080//UI/UserComponent/StartPage.html">Back</a>
+        </div>
+        <div>
+            <h1>Overview of the current project</h1>
+            <div>
+                <h3 id="nrSprints">Project have x Sprints</h3>
+            </div>
+            <div>
+            <table id = "ProjectTable">
+                    <tr>
+                      <th>Id</th>
+                      <th>Sprint Name</th>
+                      <th>Feature Number</th>
+                      <th>Bugs Number</th>
+                      <th>Tasks Number</th>
+                    </tr>
+            </table>
+        </br>
+        </div>
+        <div>
+            
+            <h3>Create Sprint</h3>
+            <input type="text" name="sprintName">
+            <button id="createSprintBtn" onclick="">Save</button>
+        </br>
+        </div>
+        <div>
+            </br>
+                <table id = "IssueTable">
+                        <tr>
+                            <th>Id</th>
+                            <th>Type</th>
+                            <th>Name</th>
+                            <th>CreateBy</th>
+                            <th>Assignee</th>
+                            <th>Description</th>
+                            <th>Status</th>
+                            <th>CreatedAt</th>
+                            <th>UpdatedAt</th>
+                        </tr>
+                </table>
+            </br>
+            </div>
+        </div>
+        <h3>Filtrari folosind status-ul</h3>
+        <div>
+            <button id="statusAll">All</button>
+            <button id="statusNew">New</button>
+            <button id="statusInProgress">In progress</button>
+            <button id="statusFeedback">Feedback</button>
+            <button id="statusRework">Rework</button>
+            <button id="statusResolved">Resolved</button>
+            <button id="statusReadyForTesting">Ready for Testing</button>
+        </div>
+        
+    </body>
+</html>

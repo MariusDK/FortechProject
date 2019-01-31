@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<meta charset="utf-8"/>
+<html lang="en">
+    <head>
+    </head>
+    <body>
+        <script type='module' src="IssuePage.js"></script>
+        <div>
+            <div>
+                <a href="http://127.0.0.1:8080//UI/SprintComponent/SprintPage.html">Back</a>
+            </div>
+            <div>
+                <h1>Subtasks List</h1>
+            </div>
+            <div>
+                    <table id ="subtaskTable">
+                            <tr>
+                              <th>Id</th>
+                              <th>Type</th>
+                              <th>Name</th>
+                              <th>CreateBy</th>
+                              <th>Assignee</th>
+                              <th>Description</th>
+                              <th>Status</th>
+                              <th>CreatedAt</th>
+                              <th>UpdatedAt</th>
+                            </tr>
+                    </table>
+                </br>
+            </div>
+            <div>
+                <button id="createSubtaskBtn">Create Subtask</button>
+
+            </div>
+            <div>
+                    <h1>Comments List</h1>
+            </div>
+            <div>
+                    <table id = "commentsTable">
+                            <tr>
+                              <th>Id</th>
+                              <th>Name</th>
+                            </tr>
+                    </table>
+                </br>
+            </div>
+            <div> 
+                    <h3>Create Comment</h3>
+                    <input type="text" name="commentName">
+                    <button id="createCommentBtn" onclick="">Save</button>
+            </div>
+        </div>
+    </body>
+</html>

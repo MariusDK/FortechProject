@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<meta charset="utf-8"/>
+<html lang="en">
+    <head>
+    </head>
+    <body>
+        <script type='module' src="StartPage.js"></script>
+        <div>
+        <select id="userList" size="1">            
+        </select></div>
+        <div>
+        <select id="projectList" size="1">            
+        </select>
+        </div>
+        <div class="button">
+            <button onclick="selectUser()">Select</button>
+            <script>
+            function selectUser()
+            {
+                var indexUser = document.getElementById("userList").selectedIndex;
+                var selectedUser = document.getElementById("userList").options;
+                var indexProject = document.getElementById("projectList").selectedIndex;
+                var selectedProject = document.getElementById("projectList").options;
+                // alert("Index: " + selectedUser[indexUser].index + " is " + selectedUser[indexUser].text);
+                // alert("Index: " + selectedProject[indexProject].index + " is " + selectedProject[indexProject].text);
+                localStorage.setItem("curentUserName",selectedUser[indexUser].text);
+                localStorage.setItem("curentProjectId",selectedProject[indexProject].text);
+                window.location.replace("http://127.0.0.1:8080//UI/ProjectComponent/ProjectPage.html");
+            }
+            </script>
+        </div>
+    </body>
+</html>
