@@ -5,15 +5,18 @@
     </head>
     <body>
         <script type='module' src="StartPage.js"></script>
-        <div>
+        <link rel="stylesheet" type="text/css" href="StartPage.css" media="screen" />
+        <div class="startPage">
+            User:
         <select id="userList" size="1">            
-        </select></div>
-        <div>
+        </select>
+        <div>Project: 
         <select id="projectList" size="1">            
         </select>
         </div>
         <div class="button">
-            <button onclick="selectUser()">Select</button>
+            </div>
+            <button class="selectUserBtn" onclick="selectUser()">Select</button>
             <script>
             function selectUser()
             {

@@ -2,13 +2,17 @@
 <meta charset="utf-8"/>
 <html lang="en">
     <head>
+        <link rel="stylesheet" type="text/css" href="CreateIssue.css" media="screen" />
     </head>
     <body>
         <script type='module' src="CreateIssue.js"></script>
-        <div>
-            <div>
+        <div class="createIssue">
+            <div class="link">
                 <a href="http://127.0.0.1:8080//UI/SprintComponent/SprintPage.html">Back</a>
             </div>
+            
+            <div class="createIssueForm">
+                <h1>Create Issue</h1>
                 Name: <input type="text" name="issueName">
                 </br>
                 Type:<select id="typeList" size="1">
@@ -23,6 +27,7 @@
                 Description: <input type="text" name="description">
             </br>
                 <button id="saveIssueBtn">Save</button>
+            </div>
         </div>
     </body>
 </html>

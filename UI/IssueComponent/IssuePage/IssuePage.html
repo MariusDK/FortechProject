@@ -4,9 +4,10 @@
     <head>
     </head>
     <body>
+        <link rel="stylesheet" type="text/css" href="IssuePage.css" media="screen" />
         <script type='module' src="IssuePage.js"></script>
-        <div>
-            <div>
+        <div class="issuePage">
+            <div class="link">
                 <a href="http://127.0.0.1:8080//UI/SprintComponent/SprintPage.html">Back</a>
             </div>
             <div>
@@ -44,9 +45,9 @@
                     </table>
                 </br>
             </div>
-            <div> 
+            <div class="commentForm"> 
                     <h3>Create Comment</h3>
-                    <input type="text" name="commentName">
+                    <input placeHolder="Comment Name" type="text" name="commentName">
                     <button id="createCommentBtn" onclick="">Save</button>
             </div>
         </div>

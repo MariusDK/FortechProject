@@ -1,0 +1,54 @@
+body
+{
+    margin: 0;
+}
+.projectPage{
+    background:  -webkit-linear-gradient(#D6A074, #503C2C, #1C150D);
+    text-align: center;
+    background-size: 100% 100%;
+    min-height: 100vh; 
+    display: block;  
+    font-size: 20px;
+}
+button{
+    font-size: 20px;
+    margin-top: 2%;
+    background: transparent;
+    text-decoration: none;
+    padding: 7px 30px 7px 30px;
+    border: 3px solid black;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+}
+.listFilters button{
+    margin-bottom: 5%;
+}
+a{
+    font-size: 20px;
+    margin-top: 2%;
+    background: transparent;
+    text-decoration: none;
+    padding: 7px 30px 7px 30px;
+    border: 3px solid black;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+}
+.linkBack{
+    padding-top: 2%;
+    text-align: left;
+}
+.linkBack a{
+    margin-left: 5%;
+}
+input{
+    font-size: 20px;
+    margin-top: 2%;
+    background: transparent;
+    text-decoration: none;
+    padding: 7px 30px 7px 30px;
+    border: 3px solid black;
+    border-radius: 5px;
+    color: black;
+}
